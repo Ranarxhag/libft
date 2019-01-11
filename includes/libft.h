@@ -115,11 +115,12 @@ char				*ft_strdupwc(char *str, char ban);
 char				*ft_uctoa(unsigned char n);
 char				*ft_uitoa(unsigned int n);
 char				*ft_uitoa_base(unsigned int number, int base);
-char                *ft_ulltoa(unsigned long long n);
-char                *ft_ulltoa_base(unsigned long long number, int base);
-char                *ft_ultoa(unsigned long n);
-char                *ft_ultoa_base(unsigned long number, int base);
-char                *ft_ustoa(unsigned short n);
-char                *ft_strremove(const char *str, int start, int len);
+char				*ft_ulltoa(unsigned long long n);
+char				*ft_ulltoa_base(unsigned long long number, int base);
+char				*ft_ultoa(unsigned long n);
+char				*ft_ultoa_base(unsigned long number, int base);
+char				*ft_ustoa(unsigned short n);
+char				*ft_strremove(const char *str, int start, int len);
 char				*ft_strtoupper(char *s);
+int					ft_countchr(char *str, char c);
 #endif
