@@ -31,7 +31,7 @@ SRC_FILES =	ft_atoi.c ft_bzero.c ft_error.c ft_isalnum.c ft_isalpha.c ft_isascii
 			ft_ctoa.c ft_intset.c ft_itoa_base.c ft_lltoa.c ft_lltoa_base.c ft_ltoa.c \
 			ft_ltoa_base.c ft_stoa.c ft_strdupwc.c ft_uctoa.c ft_uitoa.c ft_uitoa_base.c \
 			ft_ulltoa.c ft_ulltoa_base.c ft_ultoa.c ft_ultoa_base.c ft_ustoa.c \
-			ft_strremove.c ft_strtoupper.c ft_countchr.c
+			ft_strremove.c ft_strtoupper.c ft_countchr.c get_next_line.c
 
 PRINTF_FILES = srcs/ft_printf.c srcs/fill_data.c srcs/data.c srcs/config_checker.c srcs/config.c \
 				srcs/sub_checker.c srcs/dispatcher.c srcs/set_type.c srcs/formatting.c
