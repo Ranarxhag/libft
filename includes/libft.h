@@ -114,6 +114,7 @@ char				*ft_ltoa(long n);
 char				*ft_ltoa_base(long number, int base);
 char				*ft_stoa(short n);
 char				*ft_strdupwc(char *str, char ban);
+char				*ft_strdupwstr(char *str, char *ban);
 char				*ft_uctoa(unsigned char n);
 char				*ft_uitoa(unsigned int n);
 char				*ft_uitoa_base(unsigned int number, int base);
